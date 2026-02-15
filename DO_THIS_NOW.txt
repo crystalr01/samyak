@@ -1,0 +1,52 @@
+═══════════════════════════════════════════════════════════════
+  ⚡ DO THIS NOW - FIX IN 2 MINUTES
+═══════════════════════════════════════════════════════════════
+
+YOUR ERROR:
+  auth/invalid-app-credential
+  (reCAPTCHA works, but Firebase rejects the request)
+
+THE FIX:
+  Add a test phone number in Firebase Console
+
+═══════════════════════════════════════════════════════════════
+
+EXACT STEPS:
+
+1. Click this link:
+   https://console.firebase.google.com/project/digital-cards-38a1d/authentication/providers
+
+2. Scroll down to: "Phone numbers for testing"
+
+3. Click: "+ Add phone number"
+
+4. Enter phone: +919370329233
+
+5. Enter code: 123456
+
+6. Click: "Add"
+
+7. Done! ✅
+
+═══════════════════════════════════════════════════════════════
+
+TEST IN YOUR APP:
+
+1. Enter phone: 9370329233
+2. Click "Send OTP"
+3. Enter code: 123456
+4. Login successful! ✅
+
+═══════════════════════════════════════════════════════════════
+
+WHAT HAPPENS:
+  • No real SMS sent
+  • No billing required
+  • Works immediately
+  • Perfect for testing
+
+═══════════════════════════════════════════════════════════════
+
+THAT'S IT! You'll be testing in 2 minutes! 🚀
+
+═══════════════════════════════════════════════════════════════

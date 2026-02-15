@@ -1,0 +1,61 @@
+/* UserHomePage specific styles */
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Filter section animations */
+.filter-section {
+    animation: slideDown 0.3s ease;
+}
+
+/* Responsive grid adjustments */
+@media (max-width: 768px) {
+    .filter-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .filter-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (min-width: 1201px) {
+    .filter-grid {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
+/* Smooth transitions for filter inputs */
+.filter-input {
+    transition: all 0.3s ease;
+}
+
+.filter-input:focus {
+    border-color: #6a11cb !important;
+    box-shadow: 0 0 0 3px rgba(106, 17, 203, 0.1);
+}
+
+/* Active filter badges */
+.filter-badge {
+    transition: all 0.3s ease;
+}
+
+.filter-badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

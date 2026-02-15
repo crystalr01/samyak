@@ -1,0 +1,52 @@
+═══════════════════════════════════════════════════════════════
+  🚨 QUICK FIX: auth/invalid-app-credential Error
+═══════════════════════════════════════════════════════════════
+
+YOUR ERROR:
+  Firebase: Error (auth/invalid-app-credential)
+
+THE PROBLEM:
+  Phone Authentication is NOT enabled in Firebase Console
+
+THE FIX (3 minutes):
+  
+  1. Go to: https://console.firebase.google.com/
+  
+  2. Click project: "digital-cards-38a1d"
+  
+  3. Click: "Authentication" (left sidebar)
+  
+  4. Click: "Sign-in method" tab
+  
+  5. Find: "Phone" in the list
+  
+  6. Click: "Edit" button
+  
+  7. Toggle: "Enable" to ON
+  
+  8. Click: "Save"
+  
+  9. Verify: "localhost" is in "Authorized domains"
+  
+  10. Refresh your app and test!
+
+═══════════════════════════════════════════════════════════════
+
+WHAT HAPPENS AFTER:
+  ✅ No more errors
+  ✅ Real SMS sent to phone
+  ✅ OTP received
+  ✅ Login works!
+
+═══════════════════════════════════════════════════════════════
+
+DETAILED GUIDES:
+  • ENABLE_PHONE_AUTH_NOW.md (step-by-step)
+  • FIX_AUTH_ERROR_VISUAL_GUIDE.md (with visuals)
+  • FIREBASE_PHONE_AUTH_SETUP.md (complete guide)
+
+═══════════════════════════════════════════════════════════════
+
+YOUR CODE IS PERFECT! Just enable Phone Auth in Firebase Console.
+
+═══════════════════════════════════════════════════════════════

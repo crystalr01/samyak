@@ -1,0 +1,56 @@
+═══════════════════════════════════════════════════════════════
+  🚨 QUICK FIX: Phone Auth Error (2 MINUTES)
+═══════════════════════════════════════════════════════════════
+
+PROBLEM:
+  ✅ Phone Auth is enabled
+  ❌ Still getting: auth/invalid-app-credential
+
+SOLUTION: Use Test Phone Numbers (No Billing Required!)
+
+═══════════════════════════════════════════════════════════════
+
+STEPS:
+
+1. Go to:
+   https://console.firebase.google.com/project/digital-cards-38a1d/authentication/providers
+
+2. Scroll down to: "Phone numbers for testing"
+
+3. Click to expand it
+
+4. Click: "+ Add phone number"
+
+5. Enter:
+   Phone number: +919370329233
+   Verification code: 123456
+
+6. Click: "Add"
+
+7. Done! Now test in your app:
+   - Enter phone: 9370329233
+   - Click "Send OTP"
+   - Enter code: 123456
+   - Login successful! ✅
+
+═══════════════════════════════════════════════════════════════
+
+WHAT THIS DOES:
+  • No real SMS sent (saves money)
+  • No billing required
+  • Works on localhost
+  • Perfect for testing
+  • Fixed OTP code (123456)
+
+═══════════════════════════════════════════════════════════════
+
+AFTER THIS WORKS:
+  • For production: Enable App Check
+  • For real SMS: Set up billing
+  • See: FIX_NOW_STEP_BY_STEP.md
+
+═══════════════════════════════════════════════════════════════
+
+YOU'LL BE TESTING IN 2 MINUTES! 🚀
+
+═══════════════════════════════════════════════════════════════

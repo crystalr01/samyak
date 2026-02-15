@@ -1,0 +1,91 @@
+═══════════════════════════════════════════════════════════════
+  🎯 WHAT TO CLICK RIGHT NOW
+═══════════════════════════════════════════════════════════════
+
+YOU'RE HERE:
+  Firebase Console → App Check → Products tab
+  Showing: "100% Unverified: unknown origin requests"
+
+═══════════════════════════════════════════════════════════════
+
+OPTION 1: REGISTER WEB APP (10 minutes)
+
+  1. Click "Apps" tab (next to "Products" at the top)
+  
+  2. Click "Register app" button
+  
+  3. Click "Web" icon
+  
+  4. Enter nickname: "Samyak Shadi Web"
+  
+  5. Click "Register app"
+  
+  6. Select "reCAPTCHA v3"
+  
+  7. Enter site key: 6Lcki2EsAAAAAKUdSj4cf9QhyDi8cvkqPQEEpQHj
+  
+  8. Click "Save"
+  
+  9. Go to "Products" tab
+  
+  10. Find "Authentication"
+  
+  11. Set to "Unenforced"
+  
+  12. Test your app!
+
+═══════════════════════════════════════════════════════════════
+
+OPTION 2: USE TEST PHONE NUMBERS (2 minutes) ⭐ RECOMMENDED
+
+  1. Click "Authentication" in left sidebar
+  
+  2. Click "Sign-in method" tab
+  
+  3. Scroll down to "Phone numbers for testing"
+  
+  4. Click to expand it
+  
+  5. Click "+ Add phone number"
+  
+  6. Enter phone: +919370329233
+  
+  7. Enter code: 123456
+  
+  8. Click "Add"
+  
+  9. Test your app with phone: 9370329233 and code: 123456
+  
+  10. Works immediately! ✅
+
+═══════════════════════════════════════════════════════════════
+
+DIRECT LINKS:
+
+  App Check (Option 1):
+  https://console.firebase.google.com/project/digital-cards-38a1d/appcheck
+
+  Test Numbers (Option 2):
+  https://console.firebase.google.com/project/digital-cards-38a1d/authentication/providers
+
+═══════════════════════════════════════════════════════════════
+
+MY RECOMMENDATION:
+
+  → Use OPTION 2 (Test Phone Numbers)
+  → Takes only 2 minutes
+  → No App Check configuration needed
+  → Perfect for testing
+  → Works immediately!
+
+═══════════════════════════════════════════════════════════════
+
+AFTER OPTION 2:
+
+  In your app:
+  1. Enter phone: 9370329233
+  2. Click "Send OTP"
+  3. Enter code: 123456
+  4. Login successful! ✅
+
+═══════════════════════════════════════════════════════════════
